@@ -1,0 +1,50 @@
+<repast.simphony.data2.engine.DataSetDescriptor simphonyVersion="2.10.0">
+  <name>Agent Counts</name>
+  <type>AGGREGATE</type>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>1.0</start>
+    <interval>1.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>-1458784741</hashCode>
+  </scheduleParams>
+  <atEnd>false</atEnd>
+  <methodDataSources class="linked-hash-map"/>
+  <countSources class="linked-hash-map">
+    <entry>
+      <string>Survivor Count</string>
+      <repast.simphony.data2.engine.CountSourceDefinition>
+        <typeName>drones.Survivor</typeName>
+        <id>Survivor Count</id>
+      </repast.simphony.data2.engine.CountSourceDefinition>
+    </entry>
+    <entry>
+      <string>Rescued Survivor Count</string>
+      <repast.simphony.data2.engine.CountSourceDefinition>
+        <typeName>drones.RescuedSurvivor</typeName>
+        <id>Rescued Survivor Count</id>
+      </repast.simphony.data2.engine.CountSourceDefinition>
+    </entry>
+    <entry>
+      <string>Distribution Center Count</string>
+      <repast.simphony.data2.engine.CountSourceDefinition>
+        <typeName>drones.DistributionCenter</typeName>
+        <id>Distribution Center Count</id>
+      </repast.simphony.data2.engine.CountSourceDefinition>
+    </entry>
+    <entry>
+      <string>Drone Count</string>
+      <repast.simphony.data2.engine.CountSourceDefinition>
+        <typeName>drones.DistributionCenter</typeName>
+        <id>Drone Count</id>
+      </repast.simphony.data2.engine.CountSourceDefinition>
+    </entry>
+  </countSources>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>
